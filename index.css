@@ -16,7 +16,7 @@ body {
 
 main {
     background-color: white;
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,5 +90,11 @@ p.list {
 @media screen and (max-width: 756px) {
     main {
         width: 95%;
+    }
+}
+
+@media screen and (min-width: 757px) and (max-width: 1024px) {
+    main {
+        width: 60%;
     }
 }
