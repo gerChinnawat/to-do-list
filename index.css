@@ -39,8 +39,6 @@ main {
     flex-direction: column;
     padding: 1rem;
     border-radius: 7px;
-    overflow: auto;
-    position: absolute;
     position: absolute;
     top: 15rem;
 }
