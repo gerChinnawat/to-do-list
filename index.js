@@ -8,7 +8,7 @@ function removeList(event) {
 
 function addList() {
     let todoInput = document.getElementById("to_do");
-    if (todoInput.value === "") {
+    if (!todoInput.value) {
         alert("Value is empty");
         return
     };
@@ -18,7 +18,7 @@ function addList() {
 
     let img = document.createElement("img");
     img.src = "assets/delete-icon.png";
-    img.width = "24";
+    img.width = 24;
     
     let article = document.createElement("article");
     article.classList.add("list");
@@ -26,4 +26,5 @@ function addList() {
     article.addEventListener("click", removeList);
 
     main.appendChild(article);
+    todoInput.value = "";
 };
