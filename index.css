@@ -101,13 +101,13 @@ p.list {
 }
 
 @media screen and (max-width: 756px) {
-    main {
+    header, main {
         width: 95%;
     }
 }
 
 @media screen and (min-width: 757px) and (max-width: 1024px) {
-    main {
+    header, main {
         width: 60%;
     }
 }
